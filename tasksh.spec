@@ -1,7 +1,7 @@
 Summary:	A shell/frontend for the command line task list manager taskwarrior
 Name:		tasksh
 Version:	1.2.0
-Release:	1
+Release:	2
 License:	MIT
 Group:		Applications
 Source0:	http://www.taskwarrior.org/download/%{name}-%{version}.tar.gz
