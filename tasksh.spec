@@ -19,12 +19,13 @@ A shell/frontend for the command line task list manager taskwarrior.
 %setup -q
 
 %build
-%cmake
+%cmake -B build
+%{__make} -C build
 
 %install
 rm -rf $RPM_BUILD_ROOT
 
-%{__make} install \
+%{__make} -C build install \
 	DESTDIR=$RPM_BUILD_ROOT
 
 %{__rm} -rf $RPM_BUILD_ROOT%{_docdir}/%{name}
