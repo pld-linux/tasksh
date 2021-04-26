@@ -10,6 +10,7 @@ URL:		http://taskwarrior.org/
 BuildRequires:	cmake >= 2.8
 BuildRequires:	libstdc++-devel
 BuildRequires:	readline-devel
+BuildRequires:	rpmbuild(macros) >= 1.605
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
