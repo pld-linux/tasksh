@@ -4,7 +4,7 @@ Version:	1.2.0
 Release:	2
 License:	MIT
 Group:		Applications
-Source0:	http://www.taskwarrior.org/download/%{name}-%{version}.tar.gz
+Source0:	https://www.taskwarrior.org/download/%{name}-%{version}.tar.gz
 # Source0-md5:	c05f7b7b0203f3f4e44a4d32f24e5746
 URL:		http://taskwarrior.org/
 BuildRequires:	cmake >= 2.8
